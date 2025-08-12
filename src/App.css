@@ -1,0 +1,64 @@
+body {
+  background-color: #D9E0EC;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#hero {
+  position: relative;
+  width: 600px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  padding: 15%;
+  border-radius: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.bton {
+  background-color: #8E44AD;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.bton:hover {
+  cursor: pointer;
+  background-color: #732D91;
+}
+
+.submit {
+  font-size: 20px;
+  color: white;
+}
+
+.heading {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.radio-btn {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.radio-btn input {
+  margin-right: 10px;
+}
